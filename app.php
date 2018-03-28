@@ -27,6 +27,12 @@ else:
 endif;
 }
 
+// iframe dashboard
+
+function dash_grafico() {
+    echo do_shortcode("[sc name="chart dark top"]");
+}
+
 
 
 
