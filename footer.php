@@ -6,7 +6,7 @@
       </div>
            </div>
 	  <div class="col-md-9">
-      <div class="copy"><p>© 2017-2018 - Backleads - Sistema V 1.0  <a href="#"><button onclick="popUpWindow ()"Tela Cheia</button></a>
+      <div class="copy"><p>© 2017-2018 - Backleads - Sistema V 1.0 
        </p></div>
       </div>
 
@@ -16,6 +16,7 @@
 		  </button></a>
 </div>
     </div>
+     
 
   <script>
       // Hide loader
@@ -39,7 +40,11 @@
   </script>
 
 
-
+<script type='text/javascript'>
+/* <![CDATA[ */
+var zajax_data = {"zajax_main":"#main","zajax_main_mobile":"","zajax_ClassID":"","zajax_search":"#searchform","zajax_ignore":"","zajax_dolist":"","zajax_masonry":"","zajax_body":"1","zajax_back":"1","zajax_preload":null};
+/* ]]> */
+</script>
 
 <script>
 var urlAtual = window.location.href;
@@ -67,32 +72,12 @@ document.getElementById('setinha').style.display = 'none';
 }
         </script>
 
-<?php
-$url_atual = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$urlblock = "http://leads.epizy.com/sistema/cadastrar-campanha/";
-$urlblock_2 = "http://leads.epizy.com/sistema/feedback/";
-if($url_atual == $urlblock || $url_atual == $urlblock_2):
-       echo '<!-- sem script -->';
-else:
-       echo wp_footer();
-endif;
-?>
-
-
-
-
-
-
-
-<script src="http://leads.epizy.com/sistema/js/app.min.13a3a368.js"></script>
-<script src="http://leads.epizy.com/sistema/js/plugins-init.js"></script>
 <script src="http://leads.epizy.com/sistema/js/jquery.dataTables.min.js"></script>
 <script src="http://leads.epizy.com/sistema/js/dataTables.bootstrap.min.js"></script>
+<script src="http://leads.epizy.com/sistema/js/app.min.13a3a368.js"></script>
+<script src="http://leads.epizy.com/sistema/js/plugins-init.js"></script>
 <script src="http://leads.epizy.com/sistema/js/switchery-settings.js"></script>
 <script type="text/javascript" src="http://leads.epizy.com/sistema/js/vendor.cdb8fcb4b7ec3b99508a.js"></script>
-
-
-
 
 </body>
 </html>
