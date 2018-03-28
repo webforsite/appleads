@@ -1,0 +1,160 @@
+body {
+  background-color: #f8f8f8;
+  font-size: 1em;
+}
+h3{color: #191919!important}
+.chat-esquerdo-online {
+  position: fixed;
+  bottom: 0;
+  float: left;
+  z-index: 9;
+  width: 15%;
+  /* height: 154px; */
+  margin-top: -454px;
+  text-align: center;
+  font-weight: bold;
+}
+.busca-rodape{width: 50%; margin-left: 10%; z-index: 999; background: #fff}
+h6{font-size: 12px!important;}
+.meio_centro {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 85%;
+  margin: -970px 0 0 15%;
+  border-top: 0px solid rgb(148, 219, 190);
+background: #f8f8f8;
+  top: 965px;
+  padding: 30px;
+}
+.header-break {
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 70%;
+  margin: -951px 0 0 15%;
+  background-color: #EAEAEA;
+  border-bottom: 1px solid rgb(148, 219, 190);
+}
+.header-topo {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 67px;
+  background: #f8f8f8;
+  margin-top: -18px;
+}
+.lado-direito {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 15%;
+  background-color: #ECECEC;
+}
+.lado-esquerdo {
+  position: fixed;
+  float: left;
+  z-index: 1;
+  width: 15%;
+  height: 950px;
+  background: #f8f8f8;
+  margin-top: 40px;
+}
+.logo {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 6.0833333333%;
+  height: 66px;
+  margin: -70px 0 0 3.41667%;
+  background-color: rgba(222, 222, 222, 0.04);
+}
+.logo-bl {
+  display: block;
+  position: fixed;
+  float: left;
+  top: 118px;
+  z-index: 5;
+  width: 36px;
+  height: auto;
+  margin: -112px 0 0 5.32422%;
+  overflow: hidden;
+  z-index: 9999;
+}
+.atualizar{color: #fff!important}
+.profile-esquerdo {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 4;
+  width: 15%;
+  height: 65px;
+  margin-top: -950px;
+  background: #f8f8f8;
+}
+.rodape {
+  position: fixed;
+  float: left;
+  z-index: 2;
+  width: 100%;
+  height: 76px;
+  bottom: 0;
+  margin: -76px 0 0 0%;
+  background-color: #f8f8f8;
+  margin-left: -30px;
+}
+.page-header{margin: 0px!important}
+.page-title {
+  padding: 7px;
+  padding-top: 7px;
+  color: rgb(22, 21, 21);
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f8f8f8;
+  margin-top: 50px;
+  font-size: 14px!important;
+}
+.email-topo{text-transform: lowercase;}
+.sub-navbar-header{padding-left: 20px!important; padding-top: 13px}
+.navigation{top: -80px!important}
+.side-menu{margin-top: 15px!important;}
+.primary{background: #979696}
+.secundary{background: #191919}
+.blue{}
+.red{}
+.cinza{}
+.ciza-escuro{}
+.bg-grafico{background: #fff}
+.tabela{width: 85%; margin-left: 15%; }
+.mdl-list__item{padding: 1px!important;padding-right: 30px!important; font-size: 13px!important}
+.mdl-list__item .mdl-list__item-primary-content .mdl-list__item-icon{margin-right: 5px!important}
+.mdl-list{padding: 1px!important; margin-left: -10px!important}
+.navbar-default{border:none!important}
+.mdl-button--raised{}
+.botao_home{margin-left: 90%}
+.pendentes_botao{background: #FF2C26!important; }
+.media-profile{margin-top: -30px!important; padding-left: 5%; margin-right: 5%}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #111; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111; 
+}
+
+

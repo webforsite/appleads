@@ -1,0 +1,43 @@
+
+
+
+
+@media screen and (max-width: 1069px) {
+.meio_centro{width: 100%; margin-left: 0%; margin-top: 10px}
+}
+
+@media screen and (max-width: 1069px ) {
+
+    .lado-esquerdo{display: none}
+
+}
+
+@media screen and (max-width: 1069px ) {
+.right-sidebar{display: none!important}
+}
+
+@media screen and (max-width: 1069px ) {
+    .rodape{margin-left: 0px; width: 100%}
+    }
+
+    @media screen and (max-width: 1069px ) {
+    .chat-esquerdo-online{display: none}
+
+    }
+
+    @media screen and (max-width: 1069px ) {
+    .mdl-layout__header-row{width: 100%!important; margin-left: 0px!important; margin-top: 30px!important}
+    }
+
+    @media screen and (max-width: 1069px ) {
+    .logo-bl{margin-left: 43%; margin-top: 0px; padding-top: 10px}
+}
+
+@media screen and (max-width: 1069px ) {
+.header-topo{display: none}
+
+}
+
+@media screen and (max-width: 1069px ){
+    .mdl-button{margin-left: -65%!important; position: absolute!important}
+}
